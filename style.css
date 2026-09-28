@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background: #ffffff;
+}
+
+.area-en-blanco {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+/* CONTENIDO */
+
+.homepage-form {
+    width: 100%;
+    min-height: 580px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+
+    gap: 40px;
+
+    background-image: url("./imagenes/fondo - hostinger.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CONTENEDOR DEL CONTENIDO */
+
+.homepage-form-contenedor {
+    width: 100%;
+    max-width: 1050;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    z-index: 2;
+}
+
+
+/* BLOQUE DEL TITULO */
+
+.homepage-form-título {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mi-icono {
+    width: 40px;
+    height: 40px;
+}
+
+.homepage-form-prompt-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 400;
+}
+
+/* PRIMERA LÍNEA H2 */
+
+.homepage-form-prompt-titulo span:first-child {
+    color: #151515
+}
+
+/* SEGUNDA LÍNEA H2*/
+
+.homepage-form-prompt-titulo span:last-child {
+    display: flex;
+
+    background: linear-gradient(90deg, #3ab0ff, #673de6, #e536db);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    max-width: 765px;
+
+    color: transparent;
+    text-align: center;
+}
+
+.homepage-form-prompt-título span {
+    display: block;
+    
+}
+
+/* INPUT */
+
+.homepage-form-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    width: 700px;
+
+    gap: 10px;
+}
+
+
+.homepage-form-controls {
+    width: 110%;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 4px;
+
+    background-color: white;
+
+    border: 1px solid #b8b8b8;
+    border-radius: 15px;
+    
+    box-shadow: 0 3px 10px #dedede
+}
+
+.homepage-form-controls input {
+    flex: 1;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    padding: 0;
+
+    background-color: transparent;
+
+    font-size: 18px;
+    color: #1d1d1f;
+  
+}
+
+.homepage-form-controls-input::placeholder {
+    color: #77777d;
+    
+}
+
+
+.homepage-form-controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 14px;
+
+    background-color: #673de6;
+    color: white;
+}
+
+
+.homepage-form-prompt span {
+    display: block;
+    
+    font-size: 14px;
+    color: #3f3f3f;
+    font-weight: 300;
+}
